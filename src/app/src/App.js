@@ -11,7 +11,6 @@ export function App() {
         'http://localhost:8000/todos/'
       );
       const jsonResponse = await response.json();
-      console.log(jsonResponse)
       return jsonResponse;
     } catch (err) {
       console.log('Error: ', err);
